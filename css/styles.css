@@ -5,6 +5,7 @@ body {
 
 #title {
     background-color: #ff4c68;
+    
 }
 
 h1 {
@@ -16,8 +17,15 @@ h1 {
     font-weight: 900;
 }
 
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-style: bold;
+    line-height: 1.5;
+}
+
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 8%;
 }
 
 /* navigation bar */
@@ -33,7 +41,7 @@ h1 {
 }
 
 .nav-item {
-    padding: 0 18px;
+    padding: 0 10px;
 }
 
 .nav-link {
@@ -48,8 +56,13 @@ h1 {
 }
 
 .titleimage {
-    width: 60%;
+    
+    width: 23%;
     transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+
+    
 }
 
 h3 {
@@ -58,7 +71,11 @@ h3 {
 }
 
 #features {
-    padding: 5% 0% 5%;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    
 }
 
 /* features icon */
@@ -68,4 +85,45 @@ h3 {
 
 .imghover:hover {
     color: #ff4c68;
+}
+
+/* testimonials section */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
+
+}
+/* carousel section */
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing section  */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+
 }
